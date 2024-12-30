@@ -71,9 +71,6 @@ export const CollectionPoint = () => {
           <Popup>Ponto de coleta em Cornélio Procópio, PR.</Popup>
         </Marker>
       </MapContainer>
-      <NavLink to="/Register">
-        <h3>Cadastrar Contribuição</h3>
-      </NavLink>
       <h2 className="title">Ultimas doações</h2>
       <ContributionsList contributions={contributions} />
     </div>
